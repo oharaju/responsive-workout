@@ -3,10 +3,12 @@ body {
 }
 .hero {
   background-color: #181818;
+  background-image: url(../images/hero-image.png);
+  background-size: 450px 450px; /*Tamanho na vertical e horizontal*/
+  background-repeat: no-repeat; /*Não repite a imagem*/background-position: bottom; /*Define a posição da imagem de fundo*/
   width: 100%;
-  height: 100%;
   text-align: center;
-  padding: 174px 84px 227px 84px;
+  padding: 174px 84px 400px 84px;
 }
 .title {
   color:#FFFFFF;
@@ -27,13 +29,12 @@ body {
   gap: 20px;
 	align-items: center;
 }
-
 @media (min-width: 768px) {
   .box {
-    flex-direction: row;justify-content: center
+    flex-direction: row;
+    justify-content: center
   }
 }
-
 .button {
   background-color: #4452FE;
   color: #FFFFFF;
