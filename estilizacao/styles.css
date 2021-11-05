@@ -1,0 +1,40 @@
+body {
+  font-family: 'Questrial', sans-serif;
+}
+.hero {
+  background-color: #181818;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 174px 84px 227px 84px;
+}
+.title {
+  color:#FFFFFF;
+  font-size: 80px;
+  font-size: 52px;
+  line-height: 62px;
+  margin-bottom: 27px;
+}
+.subtitle {
+  color:#FFFFFF;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 67px;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.button {
+  background-color: #4452FE;
+  color: #FFFFFF;
+  padding: 20px 40px;
+  text-decoration: none;
+  display: inline-block;
+}
+.button-inverted {
+  background-color: transparent;
+  border: 1px solid #FFFFFF;
+}
