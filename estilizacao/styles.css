@@ -4,8 +4,7 @@ body {
 .hero {
   background-color: #181818;
   background-image: url(../images/hero-image.png);
-  background-size: 450px 450px; /*Tamanho na vertical e horizontal*/
-  background-repeat: no-repeat; /*Não repite a imagem*/background-position: bottom; /*Define a posição da imagem de fundo*/
+  background-repeat: no-repeat; /*Não repite a imagem*/
   width: 100%;
   text-align: center;
   padding: 174px 84px 400px 84px;
@@ -43,8 +42,42 @@ body {
   display: inline-block;
   width: 178px;
   height: 65px;
+  border: none;
 }
 .button-inverted {
   background-color: transparent;
   border: 1px solid #FFFFFF;
+}
+/* Content Section */
+.content-section {
+  background-color: #181818;
+  text-align: center;
+  padding: 20px;
+}
+.content-title {
+  color: #FFFFFF;
+  font-size: 50px;
+  padding: 60px 20px;
+}
+.content-subtitle {
+  color: #FFFFFF;
+  font-size: 20px;
+  margin-bottom: 40px;
+  letter-spacing: 0.2px;
+}
+.container {
+  background-color: #FFFFFF;
+  padding: 40px 20px;
+  display: inline-block;
+  border-radius: 10px;
+  margin: 30px;
+}
+.container-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.container-subtitle {
+  color: #5C5C5C;
+  font-size: 16px;
+  margin-bottom: 50px;
 }
