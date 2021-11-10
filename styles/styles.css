@@ -43,6 +43,7 @@ body {
   width: 178px;
   height: 65px;
   border: none;
+  margin-bottom: 10px;
 }
 .button-inverted {
   background-color: transparent;
@@ -65,25 +66,51 @@ body {
   margin-bottom: 40px;
   letter-spacing: 0.2px;
 }
-.container {
+.card-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.card {
   background-color: #FFFFFF;
   padding: 40px 20px;
-  display: inline-block;
   border-radius: 10px;
-  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.container-title {
+.card-title {
   font-size: 20px;
   margin-bottom: 10px;
 }
-.container-subtitle {
+.card-subtitle {
   color: #5C5C5C;
   font-size: 16px;
   margin-bottom: 50px;
+  padding: 0 80px;
+  line-height: 20px;
+}
+.card-image {
+  width: 60%;
+}
+@media (min-width: 768px) {
+  .card-wrapper {
+    flex-direction: row;
+  }
+  .content-section {
+    padding: 20px 150px;
+  }
 }
 /* Content Section-2 */
-.gallery {
+.gallery-title {
   background-color: #181818;
+  color:#FFFFFF;
+  text-align: center;
+  padding: 20px;
+}
+.gallery-subtitle {
+  background-color: #181818;
+  color:#FFFFFF;
   text-align: center;
   padding: 20px;
 }
