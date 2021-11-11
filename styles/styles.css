@@ -1,6 +1,7 @@
 body {
   font-family: 'Questrial', sans-serif;
 }
+/* Content Section-1 */
 .hero {
   background-color: #181818;
   background-image: url(../images/hero-image.png);
@@ -49,7 +50,7 @@ body {
   background-color: transparent;
   border: 1px solid #FFFFFF;
 }
-/* Content Section */
+/* Content Section-2 */
 .content-section {
   background-color: #181818;
   text-align: center;
@@ -101,16 +102,43 @@ body {
     padding: 20px 150px;
   }
 }
-/* Content Section-2 */
-.gallery-title {
+/* Content Section-3 */
+.gallery-section {
   background-color: #181818;
+  padding: 20px 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.gallery-title {
   color:#FFFFFF;
+  font-size: 50px;
   text-align: center;
-  padding: 20px;
+  padding: 40px;
+  margin-bottom: 10px;
 }
 .gallery-subtitle {
-  background-color: #181818;
   color:#FFFFFF;
+  font-size: 20px;
   text-align: center;
-  padding: 20px;
+  margin-bottom: 30px;
+}
+.gallery-box {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 70px;
+}
+.gallery-image {
+  width: 100%; /*mobile*/
+  border-radius: 10px;
+}
+@media (min-width: 768px) {
+  .gallery-box {
+    flex-direction: row; /* quando for desktop*/
+  }
+  .gallery-image {
+    width: 25%; /* quando for desktop*/
+  }
 }
