@@ -8,11 +8,10 @@ body {
   background-repeat: no-repeat; /*Não repite a imagem*/
   width: 100%;
   text-align: center;
-  padding: 174px 84px 400px 84px;
+  padding: 174px 84px 400px 84px; /*Top,right, bottom,left (sentido horário)*/
 }
 .title {
   color:#FFFFFF;
-  font-size: 80px;
   font-size: 52px;
   line-height: 62px;
   margin-bottom: 27px;
