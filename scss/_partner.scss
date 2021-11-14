@@ -29,3 +29,8 @@
 .partner-image {
   width: 50px;
 }
+@media (min-width: 768px) {
+  .div-main {
+    display: flex;
+  }
+}

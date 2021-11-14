@@ -202,4 +202,10 @@ body {
   width: 50px;
 }
 
+@media (min-width: 768px) {
+  .div-main {
+    display: flex;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */
