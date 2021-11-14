@@ -1,0 +1,31 @@
+.partner-section {
+  background-color: #181818;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px;
+}
+.partner-title {
+  color: #FFFFFF;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 90px;
+  margin-bottom: 20px;
+}
+.partner-subtitle {
+  color: #FFFFFF;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.div-partner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+.partner-image {
+  width: 50px;
+}
