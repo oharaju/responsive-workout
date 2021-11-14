@@ -1,9 +1,7 @@
-@charset "UTF-8";
 body {
   font-family: "Questrial", sans-serif;
 }
 
-/* Content Section-1 */
 .hero {
   background-color: #181818;
   background-image: url(../images/hero-image.png);
@@ -59,7 +57,6 @@ body {
   border: 1px solid #FFFFFF;
 }
 
-/* Content Section-2 */
 .content-section {
   background-color: #181818;
   text-align: center;
@@ -120,7 +117,6 @@ body {
     padding: 20px 150px;
   }
 }
-/* Content Section-3 */
 .gallery-section {
   background-color: #181818;
   padding: 20px 60px;
