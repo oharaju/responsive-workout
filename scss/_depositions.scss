@@ -1,0 +1,42 @@
+.depositions-section {
+  background-color:#181818;
+  padding: 30px;
+}
+.depositions-title {
+  color: #FFFFFF;
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.div-users {
+  border: 1px solid #565656;
+  border-radius: 10px;
+  padding: 20px;
+}
+.users {
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.users-occupation {
+  margin-bottom: 10px;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: bold;
+}
+.users-depositions {
+  color: #FFFFFF;
+  font-size: 15px;
+  line-height: 20px;
+}
+.box-main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.box-users {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
