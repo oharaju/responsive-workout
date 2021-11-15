@@ -1,12 +1,12 @@
 .depositions-section {
-  background-color:#181818;
+  background-color:#FFFFFF;
   padding: 30px;
 }
 .depositions-title {
   color: #FFFFFF;
   font-size: 50px;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 .div-users {
   border: 1px solid #565656;
@@ -39,4 +39,9 @@
   display: flex;
   gap: 10px;
   margin-bottom: 20px;
+}
+@media (min-width: 768px) {
+  .box-main {
+    flex-direction: row;
+  }
 }
