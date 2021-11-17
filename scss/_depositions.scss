@@ -1,5 +1,5 @@
 .depositions-section {
-  background-color:#FFFFFF;
+  background-color: #181818;
   padding: 30px;
 }
 .depositions-title {
@@ -30,6 +30,11 @@
   font-size: 15px;
   line-height: 20px;
 }
+.box-depositions {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
 .box-main {
   display: flex;
   flex-direction: column;
@@ -43,5 +48,8 @@
 @media (min-width: 768px) {
   .box-main {
     flex-direction: row;
+  }
+  .depositions-section {
+    padding: 30px 200px;
   }
 }
