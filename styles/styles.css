@@ -272,5 +272,27 @@ body {
     padding: 30px 200px;
   }
 }
+.section-experience {
+  background-color: #181818;
+}
+
+.box-experience {
+  background-color: #1E1E1E;
+  text-align: center;
+}
+
+.title-experience {
+  color: #fff;
+  font-size: 50px;
+  margin-bottom: 30px;
+  padding: 40px;
+}
+
+.image-experience {
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  padding: 20px 40px;
+}
 
 /*# sourceMappingURL=styles.css.map */
