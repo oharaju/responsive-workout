@@ -273,11 +273,11 @@ body {
   }
 }
 .section-experience {
-  background-color: #181818;
+  background-color: #1E1E1E;
+  padding: 100px 30px;
 }
 
 .box-experience {
-  background-color: #1E1E1E;
   text-align: center;
 }
 
@@ -285,14 +285,31 @@ body {
   color: #fff;
   font-size: 50px;
   margin-bottom: 30px;
-  padding: 40px;
 }
 
 .image-experience {
-  height: 40%;
-  display: flex;
-  justify-content: center;
-  padding: 20px 40px;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .box-experience {
+    background-color: #343434;
+    display: flex;
+    border-radius: 30px;
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: left;
+    padding: 40px 0 0 80px;
+  }
+
+  .section-experience {
+    padding: 80px 0;
+  }
+
+  .image-experience {
+    width: 40%;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
