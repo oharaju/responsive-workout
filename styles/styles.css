@@ -57,6 +57,16 @@ body {
   border: 1px solid #FFFFFF;
 }
 
+.button:hover {
+  background-color: #2b51ce;
+  color: #FFFFFF;
+}
+
+.button-inverted:hover {
+  background-color: #FFFFFF;
+  color: #181818;
+}
+
 .content-section {
   background-color: #181818;
   text-align: center;
