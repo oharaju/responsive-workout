@@ -45,10 +45,9 @@ body {
   background-color: #4452FE;
   color: #FFFFFF;
   padding: 20px 40px;
+  align-items: center;
   text-decoration: none;
   display: inline-block;
-  width: 178px;
-  height: 65px;
   border: none;
   margin-bottom: 10px;
 }
