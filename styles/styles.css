@@ -41,32 +41,6 @@ body {
     justify-content: center;
   }
 }
-.button {
-  background-color: #4452FE;
-  color: #FFFFFF;
-  padding: 20px 40px;
-  align-items: center;
-  text-decoration: none;
-  display: inline-block;
-  border: none;
-  margin-bottom: 10px;
-}
-
-.button-inverted {
-  background-color: transparent;
-  border: 1px solid #FFFFFF;
-}
-
-.button:hover {
-  background-color: #2b51ce;
-  color: #FFFFFF;
-}
-
-.button-inverted:hover {
-  background-color: #FFFFFF;
-  color: #181818;
-}
-
 .content-section {
   background-color: #181818;
   text-align: center;
@@ -375,6 +349,31 @@ body {
   .footer-seg {
     gap: 80px;
   }
+}
+.button {
+  background-color: #4452FE;
+  color: #FFFFFF;
+  padding: 20px 40px;
+  align-items: center;
+  text-decoration: none;
+  display: inline-block;
+  border: none;
+  margin-bottom: 10px;
+}
+
+.button-inverted {
+  background-color: transparent;
+  border: 1px solid #FFFFFF;
+}
+
+.button:hover {
+  background-color: #2b51ce;
+  color: #FFFFFF;
+}
+
+.button-inverted:hover {
+  background-color: #FFFFFF;
+  color: #181818;
 }
 
 /*# sourceMappingURL=styles.css.map */
