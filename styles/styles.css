@@ -255,27 +255,27 @@ body {
     padding: 30px 200px;
   }
 }
-.section-experience {
+.experience {
   background-color: #1E1E1E;
   padding: 100px 30px;
 }
-
-.box-experience {
+.experience-box {
   text-align: center;
 }
-
-.title-experience {
+.experience-title {
   color: #fff;
   font-size: 50px;
   margin-bottom: 30px;
 }
-
-.image-experience {
+.experience-image {
   width: 100%;
 }
 
 @media (min-width: 768px) {
-  .box-experience {
+  .experience {
+    padding: 80px 0;
+  }
+  .experience-box {
     background-color: #343434;
     display: flex;
     border-radius: 30px;
@@ -285,12 +285,7 @@ body {
     text-align: left;
     padding: 40px 0 0 80px;
   }
-
-  .section-experience {
-    padding: 80px 0;
-  }
-
-  .image-experience {
+  .experience-image {
     width: 40%;
   }
 }
