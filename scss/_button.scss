@@ -7,16 +7,21 @@
   display: inline-block;
   border: none;
   margin-bottom: 10px;
+
+  &:hover {
+    background-color: #2b51ce;
+    color: #FFFFFF;
+  }
+
+  &-inverted {
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+
+    &:hover {
+      background-color:#FFFFFF;
+      color:#181818;
+    }
+  }
 }
-.button-inverted {
-  background-color: transparent;
-  border: 1px solid #FFFFFF;
-}
-.button:hover {
-  background-color: #2b51ce;
-  color: #FFFFFF;
-}
-.button-inverted:hover {
-  background-color:#FFFFFF;
-  color:#181818;
-}
+
+
