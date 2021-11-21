@@ -329,6 +329,11 @@ body {
   margin-top: 30px;
 }
 
+.footer-link {
+  text-decoration: none;
+  color: #fff;
+}
+
 @media (min-width: 768px) {
   .footer-main {
     display: flex;
