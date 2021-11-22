@@ -149,14 +149,13 @@ body {
     /* quando for desktop*/
   }
 }
-.partner-section {
+.partner {
   background-color: #181818;
   display: flex;
   align-items: center;
   flex-direction: column;
   padding: 100px 20px;
 }
-
 .partner-title {
   color: #FFFFFF;
   font-size: 50px;
@@ -164,15 +163,13 @@ body {
   margin-top: 90px;
   margin-bottom: 20px;
 }
-
 .partner-subtitle {
   color: #FFFFFF;
   font-size: 20px;
   text-align: center;
   margin-bottom: 30px;
 }
-
-.div-partner {
+.partner-box {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -180,13 +177,12 @@ body {
   padding: 20px;
   margin-bottom: 30px;
 }
-
 .partner-image {
   width: 50px;
 }
 
 @media (min-width: 768px) {
-  .div-main {
+  .partner-main {
     display: flex;
   }
 }
