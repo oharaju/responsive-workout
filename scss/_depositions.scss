@@ -1,55 +1,63 @@
-.depositions-section {
+.depositions {
   background-color: #181818;
   padding: 30px;
+
+  &-title {
+    color: #FFFFFF;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  &-box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  &-main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  &-div {
+    border: 1px solid #565656;
+    border-radius: 10px;
+    padding: 20px;
+  }
+
+  &-avatar {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+
+  &-users {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  &-occupation {
+    margin-bottom: 10px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  &-opinion {
+    color: #FFFFFF;
+    font-size: 15px;
+    line-height: 20px;
+  }
 }
-.depositions-title {
-  color: #FFFFFF;
-  font-size: 50px;
-  text-align: center;
-  margin-bottom: 30px;
-}
-.div-users {
-  border: 1px solid #565656;
-  border-radius: 10px;
-  padding: 20px;
-}
-.users {
-  color: #FFFFFF;
-  font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 5px;
-}
-.users-occupation {
-  margin-bottom: 10px;
-  color: #FFFFFF;
-  font-size: 16px;
-  font-weight: bold;
-}
-.users-depositions {
-  color: #FFFFFF;
-  font-size: 15px;
-  line-height: 20px;
-}
-.box-depositions {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-.box-main {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-.box-users {
-  display: flex;
-  gap: 10px;
-  margin-bottom: 20px;
-}
+
 @media (min-width: 768px) {
-  .box-main {
+  .depositions-box {
     flex-direction: row;
   }
-  .depositions-section {
+  .depositions {
     padding: 30px 200px;
   }
 }
