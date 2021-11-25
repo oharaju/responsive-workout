@@ -242,7 +242,7 @@ body {
   text-align: center;
 }
 .experience-title {
-  color: #fff;
+  color: #FFFFFF;
   font-size: 50px;
   margin-bottom: 30px;
 }
@@ -270,7 +270,7 @@ body {
 }
 .footer {
   background-color: #181818;
-  color: #fff;
+  color: #FFFFFF;
   padding: 110px 80px;
 }
 .footer-box {
@@ -289,7 +289,7 @@ body {
 }
 .footer-link {
   text-decoration: none;
-  color: #fff;
+  color: #FFFFFF;
 }
 .footer-info {
   display: flex;

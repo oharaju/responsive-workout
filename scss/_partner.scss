@@ -1,12 +1,12 @@
 .partner {
-  background-color: #181818;
+  background-color: $color-primary;
   display: flex;
   align-items: center;
   flex-direction: column;
   padding: 100px 20px;
 
   &-title {
-    color: #FFFFFF;
+    color: $color-secondary;
     font-size: 50px;
     text-align: center;
     margin-top: 90px;
@@ -14,7 +14,7 @@
   }
 
   &-subtitle {
-    color: #FFFFFF;
+    color: $color-secondary;
     font-size: 20px;
     text-align: center;
     margin-bottom: 30px;

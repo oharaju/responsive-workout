@@ -1,5 +1,5 @@
 .experience {
-  background-color: #1E1E1E;
+  background-color: $color-sixth;
   padding: 100px 30px;
 
   &-box {
@@ -7,7 +7,7 @@
   }
 
   &-title {
-    color: #fff;
+    color: $color-secondary;
     font-size: 50px;
     margin-bottom: 30px;
   }
@@ -22,7 +22,7 @@
     padding: 80px 0;
 
     &-box {
-      background-color: #343434;
+      background-color: $color-quinary;
       display: flex;
       border-radius: 30px;
       width: 80%;

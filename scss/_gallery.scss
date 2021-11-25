@@ -1,19 +1,19 @@
 .gallery-section {
-  background-color: #181818;
+  background-color: $color-primary;
   padding: 20px 60px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 .gallery-title {
-  color:#FFFFFF;
+  color: $color-secondary;
   font-size: 50px;
   text-align: center;
   padding: 40px;
   margin-bottom: 10px;
 }
 .gallery-subtitle {
-  color:#FFFFFF;
+  color: $color-secondary;
   font-size: 20px;
   text-align: center;
   margin-bottom: 30px;

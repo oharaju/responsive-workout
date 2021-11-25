@@ -1,9 +1,9 @@
 .depositions {
-  background-color: #181818;
+  background-color: $color-primary;
   padding: 30px;
 
   &-title {
-    color: #FFFFFF;
+    color: $color-secondary;
     font-size: 50px;
     text-align: center;
     margin-bottom: 30px;
@@ -21,7 +21,7 @@
   }
 
   &-div {
-    border: 1px solid #565656;
+    border: 1px solid $color-quaternar;
     border-radius: 10px;
     padding: 20px;
   }
@@ -33,7 +33,7 @@
   }
 
   &-users {
-    color: #FFFFFF;
+    color: $color-secondary;
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 5px;
@@ -41,13 +41,13 @@
 
   &-occupation {
     margin-bottom: 10px;
-    color: #FFFFFF;
+    color: $color-secondary;
     font-size: 16px;
     font-weight: bold;
   }
 
   &-opinion {
-    color: #FFFFFF;
+    color: $color-secondary;
     font-size: 15px;
     line-height: 20px;
   }

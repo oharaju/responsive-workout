@@ -2,6 +2,7 @@ body {
   font-family: 'Questrial', sans-serif;
 }
 
+@import "./variables";
 @import "./hero";
 @import "./content";
 @import "./gallery";
@@ -9,4 +10,4 @@ body {
 @import "./depositions";
 @import "./experience";
 @import "./footer";
-@import "./button"
+@import "./button";

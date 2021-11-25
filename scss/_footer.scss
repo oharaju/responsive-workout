@@ -1,6 +1,6 @@
 .footer {
-  background-color: #181818;
-  color: #fff;
+  background-color: $color-primary;
+  color: $color-secondary;
   padding: 110px 80px;
 
   &-box {
@@ -22,7 +22,7 @@
 
   &-link {
     text-decoration: none;
-    color: #fff;
+    color: $color-secondary;
   }
 
   &-info {

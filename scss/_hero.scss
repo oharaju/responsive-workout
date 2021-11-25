@@ -1,5 +1,5 @@
 .hero {
-  background-color: #181818;
+  background-color: $color-primary;
   background-image: url(../images/hero-image.png);
   background-repeat: no-repeat; /*Não repite a imagem*/
   width: 100%;
@@ -7,14 +7,14 @@
   padding: 174px 84px 400px 84px; /*Top,right, bottom,left (sentido horário)*/
 
   &-title {
-    color:#FFFFFF;
+    color: $color-secondary;
     font-size: 52px;
     line-height: 62px;
     margin-bottom: 27px;
   }
 
   &-subtitle {
-    color:#FFFFFF;
+    color: $color-secondary;
     font-size: 20px;
     line-height: 30px;
     margin-bottom: 67px;
