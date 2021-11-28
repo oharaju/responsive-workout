@@ -34,7 +34,7 @@
   }
 }
 
-@media (min-width: 768px) {
+@include tablet {
   .partner-main {
     display: flex;
   }

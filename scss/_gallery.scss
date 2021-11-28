@@ -29,7 +29,7 @@
   width: 100%; /*mobile*/
   border-radius: 10px;
 }
-@media (min-width: 768px) {
+@include tablet {
   .gallery-box {
     flex-direction: row; /* quando for desktop*/
   }

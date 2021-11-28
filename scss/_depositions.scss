@@ -53,7 +53,7 @@
   }
 }
 
-@media (min-width: 768px) {
+@include tablet {
   .depositions-box {
     flex-direction: row;
   }

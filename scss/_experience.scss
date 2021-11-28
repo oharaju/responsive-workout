@@ -17,7 +17,7 @@
   }
 }
 
-@media (min-width: 768px) {
+@include tablet {
   .experience {
     padding: 80px 0;
 

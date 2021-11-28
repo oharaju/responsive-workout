@@ -28,7 +28,7 @@
 }
 }
 
-@media (min-width: 768px) {
+@include tablet {
   .hero-box {
     flex-direction: row;
     justify-content: center;

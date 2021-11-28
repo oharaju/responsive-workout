@@ -49,7 +49,7 @@
   }
 }
 
-@media (min-width: 768px) {
+@include tablet {
   .content-wrapper {
     flex-direction: row;
   }
